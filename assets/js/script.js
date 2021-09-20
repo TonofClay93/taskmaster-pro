@@ -125,7 +125,7 @@ $(".list-group").on("blur", "input[type='text']", function(){
   .index();
   
   //update task in array and re-save to localstorage
-  task[status][index].date = date;
+  tasks[status][index].date = date;
   saveTasks();
 
   //recrate spab element with bootstrap classes
